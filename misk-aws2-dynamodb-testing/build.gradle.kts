@@ -23,7 +23,7 @@ dependencies {
   implementation(Dependencies.tempest2TestingDocker)
   // for tempest...
   implementation("org.apache.logging.log4j:log4j-core:2.18.0")
-  implementation("org.apache.logging.log4j:log4j-api:2.18.0")
+  implementation("org.apache.logging.log4j:log4j-api:2.19.0")
 
   // There is in incompatibility between com.amazonaws:DynamoDBLocal and recent ANTLR versions.
   // We have to force down to a known-working version.
